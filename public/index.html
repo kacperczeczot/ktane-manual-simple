@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KTANE — Uproszczony Podręcznik Rozbrajania Bomb</title>
+  <link rel="icon" href="img/favicon.ico" type="image/png">
+  <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <style>
+    .hub-container { max-width: 900px; margin: 40px auto; padding: 20px; font-family: 'Special Elite', cursive, sans-serif; }
+    .lang-switcher { display: flex; gap: 20px; margin-bottom: 30px; }
+    .lang-btn { padding: 12px 24px; font-size: 1.1rem; border: 2px solid #333; background: #fff; text-decoration: none; color: #000; font-weight: bold; }
+    .lang-btn:hover { background: #333; color: #fff; }
+    .module-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 15px; margin-top: 20px; }
+    .module-card { border: 1px solid #999; padding: 15px; background: #fdfdfd; text-decoration: none; color: #111; display: block; }
+    .module-card:hover { border-color: #000; background: #f0f0f0; }
+    .module-title { font-size: 1.2rem; margin-bottom: 5px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <div class="hub-container">
+    <h1>💣 KTANE — Uproszczony Podręcznik Rozbrajania Bomb</h1>
+    <p>Zoptymalizowany, skondensowany podręcznik dla ekspertów rozbrajających bomby w grze <em>Keep Talking and Nobody Explodes</em>.</p>
+    
+    <div class="lang-switcher">
+      <a class="lang-btn" href="pl/index.html">🇵🇱 Wersja Polska (PL)</a>
+      <a class="lang-btn" href="#en-modules">🇬🇧 English Version (EN)</a>
+      <a class="lang-btn" href="../assets/pdf/KTANE-v1-Uproszczony-pl.pdf">📄 Pobierz PDF (PL)</a>
+    </div>
+
+    <h2 id="en-modules">English Modules (EN)</h2>
+    <div class="module-grid">
+      <a class="module-card" href="ModuleWires.html"><div class="module-title">Wires</div><span>Simple decision logic</span></a>
+      <a class="module-card" href="ModuleButton.html"><div class="module-title">The Button</div><span>Faster hold rules</span></a>
+      <a class="module-card" href="ModuleKeypad.html"><div class="module-title">Keypads</div><span>Symbol labels</span></a>
+      <a class="module-card" href="ModuleSimon.html"><div class="module-title">Simon Says</div><span>Visual diagrams</span></a>
+      <a class="module-card" href="ModuleWhosOnFirst.html"><div class="module-title">Who's on First</div><span>Alphabetized lookup</span></a>
+      <a class="module-card" href="ModuleMemory.html"><div class="module-title">Memory</div><span>Concise 5-stage steps</span></a>
+      <a class="module-card" href="ModuleMorseCode.html"><div class="module-title">Morse Code</div><span>Binary search tree</span></a>
+      <a class="module-card" href="ModuleComplicatedWires.html"><div class="module-title">Complicated Wires</div><span>Venn diagram logic</span></a>
+      <a class="module-card" href="ModuleWireSequence.html"><div class="module-title">Wire Sequences</div><span>Direct occurrence lookup</span></a>
+      <a class="module-card" href="ModuleMaze.html"><div class="module-title">Mazes</div><span>Quick identifier grid</span></a>
+      <a class="module-card" href="ModulePassword.html"><div class="module-title">Passwords</div><span>Column character elimination</span></a>
+      <a class="module-card" href="ModuleNeedyKnob.html"><div class="module-title">Needy Knobs</div><span>Up/Down/Left/Right LEDs</span></a>
+      <a class="module-card" href="ModuleNeedyMisc.html"><div class="module-title">Needy Misc</div><span>Venting Gas & Capacitors</span></a>
+    </div>
+  </div>
+</body>
+</html>

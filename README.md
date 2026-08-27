@@ -1,60 +1,42 @@
-# KTANE Simplified Bomb Defusal Manual
+[Strona główna](README.md)
 
-This is a refined version of the original bomb defusal manual for the game "Keep Talking and Nobody Explodes",
-featuring enhanced readability and ease of use. This is not a smart manual or similar form of computer-aided
-bomb defusal solution, but instead is merely a more streamlined version of the original document.
+---
 
-It is recommended to replace the corresponding pages of the original manual with their simplified counterparts.
+# KTANE — Uproszczony Podręcznik Rozbrajania Bomb
 
-## Modules
+> Zoptymalizowany pod kątem szybkości podejmowania decyzji i czytelności podręcznik dla Ekspertów do gry *Keep Talking and Nobody Explodes*.
 
-### Wires
-Simplified the decision logic and refactored the steps to be more concise.
+---
 
-Wire colors are now color-coded in the text for clarity.
+## 1. Dokumentacja i Standardy
 
-### The Button
-Simplified the decision logic **greatly**, resulting in faster decision times.
+Projekt funkcjonuje w oparciu o model **Single-App** ([`template-single-app`](https://github.com/kacperczeczot/template-single-app)) i przestrzega standardów inżynieryjnych ekosystemu:
 
-Button colors are now color-coded in the text for clarity.
+| Dokument / Sekcja | Opis |
+| :--- | :--- |
+| [Standardy Projektu (`docs/STANDARDS.md`)](docs/STANDARDS.md) | Zgodność ze standardami DevEx i procedury generowania |
+| [Dokumentacja Projektu (`docs/README.md`)](docs/README.md) | Centralny hub dokumentacji technicznej |
+| [Rejestr Decyzji ADR (`docs/adr/`)](docs/adr/README.md) | Rejestr Decyzji Architektonicznych projektu |
+| [Globalne Standardy DevEx (`devex-standards`)](https://github.com/kacperczeczot/devex-standards) | Nadrzędna Konstytucja inżynieryjna ekosystemu |
+| [Reguły AI Projektu (`.agents/rules/project.md`)](.agents/rules/project.md) | Wytyczne domenowe dla asystentów AI |
 
-### Keypads
-Added text labels beneath each symbol to remove ambiquity.
+---
 
-### Simon Says
-The transformations are now represented using easy to read diagrams instead of text.
+## 2. Mapa Repozytorium
 
-### Who's on First
-Reordered the elements of both steps to be alphabetized.
+* 📁 [**`public/`**](public/README.md) — Bezserwerowy interfejs webowy podręcznika (wersja polska `pl/`, wersja angielska, style CSS i diagramy).
+* 📁 [**`assets/`**](assets/README.md) — Gotowe pliki PDF do druku fizycznego (`assets/pdf/`).
+* 📁 [**`docs/`**](docs/README.md) — Dokumentacja techniczna i rejestr ADR.
+* 📁 [**`scripts/`**](scripts/README.md) — Generator wersji polskiej i kompilator PDF (`generate_pl_html.py`).
 
-Removed redundant word choices from step 2.
+---
 
-### Memory
-Refactored the steps to be more concise.
+## 3. Uruchomienie i Użycie
 
-### Morse Code
-Replaced the morse code chart with an equivalent binary search tree.
+### Przeglądanie w przeglądarce:
+Otwórz plik `public/index.html` bezpośrednio w przeglądarce.
 
-Reordered the solutions to be sorted alphabetically instead of by frequency.
-
-### Complicated Wires
-The venn diagram has been replaced with a quick reference 4x4 table.
-
-Wire colors are now color-coded in the text for clarity.
-
-### Wire Sequences
-Refactored the table to be more concise.
-
-Wire colors are now color-coded in the text for clarity.
-
-### Mazes
-Labeled each maze with its unique column number pairing for the circles.
-
-### Passwords
-Password options are now presented hierarchically, with descending options for each letter position.
-
-## Needy Modules
-Vent Gas and Capacitor Discharge have both been rolled into the title page for brevity.
-
-### Knobs
-Simplified the decision logic **greatly**, with only a single relevant LED position in some cases.
+### Regeneracja wersji polskiej i PDF:
+```bash
+python3 scripts/generate_pl_html.py
+```

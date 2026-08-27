@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang='pl'><head><meta charset='utf-8'>
+<link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet'>
+<link rel='stylesheet' href='../css/normalize.css'>
+<link rel='stylesheet' href='../css/main.css'>
+<style>@media print { .page { page-break-after: always; } }</style>
+</head><body>
+<div class='section'>
+	<div class='page'>
+		<div class='page-header'>
+			<span class='page-header-doc-title'>Keep Talking and Nobody Explodes v.1 Uproszczony</span>
+			<span class='page-header-section-title'>Przycisk</span>
+		</div>
+		<div class='page-content'>
+			<img src='../img/ButtonComponent.svg' class='diagram'>
+			<h2>Odnośnie Przycisku</h2>
+			<p class='flavour-text'>
+				Mógłbyś pomyśleć, że przycisk proszący o naciśnięcie to oczywista sprawa. Właśnie takie myślenie doprowadza do eksplozji.
+			</p>
+
+			<p class='appendix-reference'>
+				Zobacz Załącznik A odnośnie rozpoznawania wskaźników.<br/>
+				Zobacz Załącznik B odnośnie rozpoznawania baterii.
+			</p><p>
+				Postępuj zgodnie z poniższymi zasadami w podanej kolejności. Wykonaj pierwszą czynność, która ma zastosowanie:
+			</p>
+
+			<ol><li>
+				<span class='color-blue'>Niebieski</span> 'PRZERWIJ' : przytrzymaj
+			</li><li>
+				'DETONUJ' I (baterie >= 2) : naciśnij i puść
+			</li><li>
+				<span class='color-white'>Biały</span> I wskaźnik 'CAR' : przytrzymaj
+			</li><li>
+				(baterie >= 3) I wskaźnik 'FRK' : naciśnij i puść
+			</li><li>
+				<span class='color-red'>Czerwony</span> 'PRZYTRZYMAJ' : naciśnij i puść
+			</li><li>
+				w przeciwnym razie : przytrzymaj
+			</li></ol>
+
+			<h3>Puszczanie trzymanego Przycisku</h3>
+			<p>
+				Gdy zaczniesz trzymać wciśnięty przycisk, zaświeci się kolorowy pasek po prawej stronie modułu. Na podstawie jego koloru musisz puścić przycisk, gdy licznik czasu wyświetla podaną cyfrę na dowolnej pozycji:
+			</p>
+
+			<ul><li>
+				<em><span class='color-yellow'>Żółty</span> pasek:</em> puść na 5.
+			</li><li>
+				<em><span class='color-blue'>Niebieski</span> pasek:</em> puść na 4.
+			</li><li>
+				<em>W przeciwnym razie:</em> puść na 1.
+			</li></ul>
+		</div>
+	</div>
+</div>
+
+<div class='section'>
+	<div class='page complex-wires'>
+		<div class='page-header'>
+			<span class='page-header-doc-title'>Keep Talking and Nobody Explodes v.1 Uproszczony</span>
+			<span class='page-header-section-title'>Skomplikowane przewody</span>
+		</div>
+		<div class='page-content'>
+			<img src='../img/ComplexWireComponent.svg' class='diagram'>
+			<h2>Odnośnie Skomplikowanych przewodów</h2>
+			<p class='flavour-text'>
+				Te przewody nie są jak inne. Niektóre są w paski! To sprawia, że są zupełnie odmienne. Dobre wieści są takie, że znaleźliśmy zwięzły zestaw instrukcji, mówiących co z nimi zrobić! Może zbyt zwięzłych…
+			</p>
+
+			<ul><li>
+				Spójrz na każdy przewód: nad przewodem znajduje się dioda LED, a pod przewodem miejsce na symbol „★”.
+			</li><li>
+				Dla <b>każdej</b> kombinacji przewód/LED/gwiazdka użyj tabeli poniżej, by zdecydować czy przewód należy przeciąć.
+			</li><li>
+				Każdy przewód może być w paski w wielu kolorach.
+			</li></ul>
+
+			</br>
+			<div>
+				<table id='complextable'>
+					<tr><th>Kolor<th>-<th>LED<th>★<th>LED + ★
+
+					<tr><th><span class='color-white'>Brak</span>
+						<td> PRZETNIJ
+						<td> NIE
+						<td> PRZETNIJ
+						<td> Baterie > 1
+
+					<tr><th><span class='color-red'>Czerwony</span>
+						<td> NS parzysty
+						<td> Baterie > 1
+						<td> PRZETNIJ
+						<td> Baterie > 1
+
+					<tr><th><span class='color-blue'>Niebieski</span>
+						<td> NS parzysty
+						<td> Port równoległy
+						<td> NIE
+						<td> Port równoległy
+
+					<tr><th><span class='color-red'>Czerwony</span> + <span class='color-blue'>Niebieski</span>
+						<td> NS parzysty
+						<td> NS parzysty
+						<td> Port równoległy
+						<td> NIE
+				</table>
+			</div>
+			</br>
+
+			<div style='clear:both;'/>
+				<p class='appendix-reference'>
+					Zobacz Załącznik B odnośnie rozpoznawania baterii.<br/>
+					Zobacz Załącznik C odnośnie rozpoznawania portów.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class='section'>
+	<div class='page'>
+		<div class='page-header'>
+			<span class='page-header-doc-title'>Keep Talking and Nobody Explodes v.1 Uproszczony</span>
+			<span class='page-header-section-title'>Klawiatury</span>
+		</div>
+		<div class='page-content'>
+			<img src='../img/KeypadComponent.svg' class='diagram'>
+			<h2>Odnośnie Klawiatur</h2>
+			<p class='flavour-text'>
+				Nie mam pojęcia co to za symbole, ale podejrzewam że mają coś wspólnego z okultyzmem.
+			</p>
+
+			<ul>
+				<li>
+					Tylko jedna z kolumn poniżej zawiera wszystkie cztery symbole z klawiatury.
+				</li>
+				<li>
+					Naciśnij cztery przyciski w kolejności, w której symbole znajdują się w tabeli, od góry do dołu.
+				</li>
+			</ul>
+
+			<table class='keypad-table'>
+				<tr>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/28-balloon.png'></img>
+					<p class='keypad-label'>Rakieta</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/16-euro.png'></img>
+					<p class='keypad-label'>E</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/1-copyright.png'></img>
+					<p class='keypad-label'>Copyright</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/11-six.png'></img>
+					<p class='keypad-label'>Sześć</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/24-pitchfork.png'></img>
+					<p class='keypad-label'>Psi</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/11-six.png'></img>
+					<p class='keypad-label'>Sześć</p>
+
+				<tr>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/13-at.png'></img>
+					<p class='keypad-label'>A</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/28-balloon.png'></img>
+					<p class='keypad-label'>Rakieta</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/8-pumpkin.png'></img>
+					<p class='keypad-label'>W</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/21-paragraph.png'></img>
+					<p class='keypad-label'>Akapit</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/4-smileyface.png'></img>
+					<p class='keypad-label'>Uśmiech</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/16-euro.png'></img>
+					<p class='keypad-label'>E</p>
+
+				<tr>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/30-upsidedowny.png'></img>
+					<p class='keypad-label'>Lambda</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/23-leftc.png'></img>
+					<p class='keypad-label'>Odwr. C</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/26-cursive.png'></img>
+					<p class='keypad-label'>Q</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/31-bt.png'></img>
+					<p class='keypad-label'>B</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/31-bt.png'></img>
+					<p class='keypad-label'>B</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/27-tracks.png'></img>
+					<p class='keypad-label'>Nierówność</p>
+
+				<tr>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/12-squigglyn.png'></img>
+					<p class='keypad-label'>Błyskawica</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/26-cursive.png'></img>
+					<p class='keypad-label'>Q</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/5-doublek.png'></img>
+					<p class='keypad-label'>K-k</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/7-squidknife.png'></img>
+					<p class='keypad-label'>Kosmita</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/22-rightc.png'></img>
+					<p class='keypad-label'>C</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/14-ae.png'></img>
+					<p class='keypad-label'>AE</p>
+
+				<tr>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/7-squidknife.png'></img>
+					<p class='keypad-label'>Kosmita</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/3-hollowstar.png'></img>
+					<p class='keypad-label'>Pusta gwiazda</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/15-meltedthree.png'></img>
+					<p class='keypad-label'>Trójka</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/5-doublek.png'></img>
+					<p class='keypad-label'>K-k</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/21-paragraph.png'></img>
+					<p class='keypad-label'>Akapit</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/24-pitchfork.png'></img>
+					<p class='keypad-label'>Psi</p>
+
+				<tr>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/9-hookn.png'></img>
+					<p class='keypad-label'>H</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/9-hookn.png'></img>
+					<p class='keypad-label'>H</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/30-upsidedowny.png'></img>
+					<p class='keypad-label'>Lambda</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/20-questionmark.png'></img>
+					<p class='keypad-label'>Pytajnik</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/19-dragon.png'></img>
+					<p class='keypad-label'>Smok</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/18-nwithhat.png'></img>
+					<p class='keypad-label'>N</p>
+
+				<tr>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/23-leftc.png'></img>
+					<p class='keypad-label'>Odwr. C</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/20-questionmark.png'></img>
+					<p class='keypad-label'>Pytajnik</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/3-hollowstar.png'></img>
+					<p class='keypad-label'>Pusta gwiazda</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/4-smileyface.png'></img>
+					<p class='keypad-label'>Uśmiech</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/2-filledstar.png'></img>
+					<p class='keypad-label'>Pełna gwiazda</p>
+
+				<td class='keypad-table-spacer'>
+				<td class='keypad-table-column'>
+					<img class='keypad-symbol-image' src='../img/symbols/6-omega.png'></img>
+					<p class='keypad-label'>Omega</p>
+			</table>
+				</div>
+	</div>
+</div>
+
+<div class='section'>
+	<div class='page'>
+		<div class='page-header'>
+			<span class='page-header-doc-title'>Keep Talking and Nobody Explodes v.1 Uproszczony</span>
+			<span class='page-header-section-title'>Labirynty</span>
+		</div>
+		<div class='page-content'>
+			<img src='../img/MazeComponent.svg' class='diagram'>
+			<h2>Odnośnie Labiryntów</h2>
+			<p class='flavour-text'>
+				Wygląda to na jakiś rodzaj labiryntu, zapewne skradziony z restauracyjnej podkładki pod talerz.
+			</p>
+
+			<ul><li>
+				Znajdź labirynt z pasującymi, okrągłymi znacznikami.
+			</li><li>
+				Rozbrajający musi doprowadzić białe światełko do czerwonego trójkąta, używając przycisków ze strzałkami.
+			</li><li>
+				<strong>Uwaga:</strong> Nie przecinaj linii widocznych w labiryncie. Te linie są niewidzialne na bombie.
+			</li><li>
+				Dla szybkiego odniesienia unikalne <strong>pozycje wierszy</strong> znaczników okrągłych są oznaczone po lewej stronie każdego labiryntu.
+			</li></ul>
+
+						1-6 <img class='maze' src='../img/maze/maze0.svg'/>
+			&nbsp;&nbsp;2-5 <img class='maze' src='../img/maze/maze1.svg'/>
+			&nbsp;&nbsp;4-6 <img class='maze' src='../img/maze/maze2.svg'/>
+
+						1-1 <img class='maze' src='../img/maze/maze3.svg'/>
+			&nbsp;&nbsp;4-5 <img class='maze' src='../img/maze/maze4.svg'/>
+			&nbsp;&nbsp;3-5 <img class='maze' src='../img/maze/maze5.svg'/>
+
+						2-2 <img class='maze' src='../img/maze/maze6.svg'/>
+			&nbsp;&nbsp;3-4 <img class='maze' src='../img/maze/maze7.svg'/>
+			&nbsp;&nbsp;1-3 <img class='maze' src='../img/maze/maze8.svg'/>
+		</div>
+	</div>
+</div>
+
+<div class='section'>
+	<div class='page'>
+		<div class='page-header'>
+			<span class='page-header-doc-title'>Keep Talking and Nobody Explodes v.1 Uproszczony</span>
+			<span class='page-header-section-title'>Pamięć</span>
+		</div>
+		<div class='page-content'>
+			<img src='../img/MemoryComponent.svg' class='diagram'>
+			<h2>Odnośnie Pamięci</h2>
+			<p class='flavour-text'>
+				Pamięć jest krucha, zresztą jak wszystko inne gdy bomba wybucha, więc skup się!
+			</p>
+
+			<ul><li>
+				Naciśnij prawidłowy przycisk, by przejść do kolejnego etapu. Ukończ wszystkie etapy, by unieszkodliwić moduł.
+			</li><li>
+				Naciśnięcie niewłaściwego przycisku zresetuje moduł do etapu 1.
+			</li><li>
+				Przyciski są numerowane od lewej do prawej.
+			</li></ul>
+
+			<div class='memory-rules'>
+				<h4>Etap 1:</h4>
+				<ul><li>&nbsp;
+					Wyświetlacz 1 — druga pozycja
+				</li><li>&nbsp;
+					Wyświetlacz 2 — druga pozycja
+				</li><li>&nbsp;
+					Wyświetlacz 3 — trzecia pozycja
+				</li><li>&nbsp;
+					Wyświetlacz 4 — czwarta pozycja
+				</li></ul>
+
+				<h4>Etap 2:</h4>
+				<ul><li>&nbsp;
+					Wyświetlacz 1 — etykieta „4”
+				</li><li>&nbsp;
+					Wyświetlacz 2 — <u>Etap 1</u>: pozycja
+				</li><li>&nbsp;
+					Wyświetlacz 3 — pierwsza pozycja
+				</li><li>&nbsp;
+					Wyświetlacz 4 — <u>Etap 1</u>: pozycja
+				</li></ul>
+
+				<h4>Etap 3:</h4>
+				<ul><li>&nbsp;
+					Wyświetlacz 1 — <u>Etap 2</u>: etykieta
+				</li><li>&nbsp;
+					Wyświetlacz 2 — <u>Etap 1</u>: etykieta
+				</li><li>&nbsp;
+					Wyświetlacz 3 — trzecia pozycja
+				</li><li>&nbsp;
+					Wyświetlacz 4 — etykieta „4”
+				</li></ul>
+
+				<h4>Etap 4:</h4>
+				<ul><li>&nbsp;
+					Wyświetlacz 1 — <u>Etap 1</u>: pozycja
+				</li><li>&nbsp;
+					Wyświetlacz 2 — pierwsza pozycja
+				</li><li>&nbsp;
+					Wyświetlacz 3 — <u>Etap 2</u>: pozycja
+				</li><li>&nbsp;
+					Wyświetlacz 4 — <u>Etap 2</u>: pozycja
+				</li></ul>
+
+				<h4>Etap 5:</h4>
+				<ul><li>&nbsp;
+					Wyświetlacz 1 — <u>Etap 1</u>: etykieta
+				</li><li>&nbsp;
+					Wyświetlacz 2 — <u>Etap 2</u>: etykieta
+				</li><li>&nbsp;
+					Wyświetlacz 3 — <u>Etap 4</u>: etykieta
+				</li><li>&nbsp;
+					Wyświetlacz 4 — <u>Etap 3</u>: etykieta
+				</li></ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class='section'>
+	<div class='page morse-code'>
+		<div class='page-header'>
+			<span class='page-header-doc-title'>Keep Talking and Nobody Explodes v.1 Uproszczony</span>
+			<span class='page-header-section-title'>Alfabet Morse'a</span>
+		</div>
+		<div class='page-content'>
+			<img src='../img/MorseCodeComponent.svg' class='diagram'>
+			<h2>Odnośnie Alfabetu Morse'a</h2>
+			<p class='flavour-text'>
+				Staroświecka forma komunikacji na morzu? I co jeszcze? Plus jest taki że to prawdziwy Alfabet Morse'a, więc możesz się czegoś nauczyć, jeśli się przyłożysz.
+			</p>
+
+			<ul><li>
+				Zinterpretuj sygnał w Alfabecie Morse'a, nadawany przez migające światło, który literuje jedno ze słów z tabeli.
+			</li><li>
+				Sygnał jest zapętlony, z długą przerwą między powtórzeniami.
+			</li><li>
+				Po zidentyfikowaniu słowa ustaw odpowiadającą mu częstotliwość i naciśnij przycisk transmisji (TX).
+			</li></ul>
+
+			<img id='morseCodeChart' src='../img/MorseCodeTree.png'/>
+			<table>
+<tr>
+					<th>BOMBY
+					<td>3.565
+
+					<th>BARKA
+					<td>3.555
+
+					<th>BRODA
+					<td>3.535
+
+					<th>DRZWI
+					<td>3.505
+
+				</tr>
+<tr>
+					<th>HARFA
+					<td>3.600
+
+					<th>INDYK
+					<td>3.592
+
+					<th>KAKAO
+					<td>3.522
+
+					<th>LAMPA
+					<td>3.582
+
+				</tr>
+<tr>
+					<th>OBRAZ
+					<td>3.545
+
+					<th>POJAZD
+					<td>3.595
+
+					<th>PONTON
+					<td>3.552
+
+					<th>ROWER
+					<td>3.542
+
+				</tr>
+<tr>
+					<th>RZEKA
+					<td>3.532
+
+					<th>SZAFA
+					<td>3.572
+
+					<th>ZAMEK
+					<td>3.575
+
+					<th>ARBUZ
+					<td>3.515
+
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+
+<div class='section'>
+	<div class='page'>
+		<div class='page-header'>
+			<span class='page-header-doc-title'>Keep Talking and Nobody Explodes v.1 Uproszczony</span>
+			<span class='page-header-section-title'>Gałki</span>
+		</div>
+		<div class='page-content'>
+			<img src='../img/NeedyKnobComponent.svg' class='diagram'>
+			<h2>Odnośnie Gałek</h2>
+			<p class='flavour-text'>
+				Niepotrzebnie skomplikowany i nieskończenie domagający się uwagi. Wyobraź sobie co by się stało, gdyby to ustrojstwo było używane do stworzenia czegoś innego niż diaboliczne łamigłówki.
+			</p>
+
+			<ul><li>
+				Gałka może być ustawiona w jednym z czterech położeń.
+			</li><li>
+				Gałka musi być we właściwym położeniu, gdy licznik czasu modułu dojdzie do zera.
+			</li><li>
+				Właściwe położenie można określić na podstawie konfiguracji dwunastu włączonych/wyłączonych diod LED.
+			</li><li>
+				Położenia gałki odnoszą się do napisu „GÓRA”, który może zmieniać pozycję.
+			</li></ul>
+
+			<h3>Konfiguracje diod LED</h3>
+
+			<h4>Położenie prawe:</h4>
+			<table style='display: inline-table'>
+				<tr><td>.<td>.<td>.<td>X<td>.<td>.
+				<tr><td>.<td>.<td>.<td>.<td>.<td>.
+			</table>
+
+			<h4>Położenie lewe:</h4>
+			<table style='display: inline-table'>
+				<tr><td> <td> <td> <td> <td>X<td>
+				<tr><td>.<td>.<td>.<td>.<td>.<td>.
+			</table>
+
+			<h4>Położenie górne:</h4>
+			<table style='display: inline-table'>
+				<tr><td>.<td>.<td>.<td>.<td>X<td>X
+				<tr><td>.<td>.<td>.<td>.<td>.<td>.
+			</table>
+			<table style='display: inline-table'>
+				<tr><td>.<td>.<td>.<td>.<td>.<td>.
+				<tr><td>.<td>.<td>.<td>.<td>X<td>X
+			</table>
+
+			<h4>Położenie dolne:</h4>
+			Jeśli żadna z powyższych konfiguracji nie pasuje, ustaw gałkę w położeniu dolnym.
+
+			<h5>Legenda tabeli:</h5>
+			<table style='display: inline-table'>
+				<tr><td>X<td> Dioda musi być włączona
+				<tr><td> <td> Dioda musi być wyłączona
+				<tr><td>.<td> Dioda może być ignorowana
+			</table>
+		</div>
+	</div>
+</div>
+
+<div class='section'>
+	<div class='page section-title'>
+		<div class='page-header'>
+			<span class='page-header-doc-title'>Keep Talking and Nobody Explodes v.1 Uproszczony</span>
+			<span class='page-header-section-title'>Sekcja 2: Moduły irytki</span>
+		</div>
+		<div class='page-content'>
+			<div class='vertical-spacer-small'></div>
+			<img src='../img/NeedyComponent.svg' class='diagram' />
+			<div class='new-block-formatting-context'>
+				<h1>Sekcja 2: Moduły irytki</h1>
+				<p>
+					Moduły irytki nie mogą zostać unieszkodliwione i stanowią powracające zagrożenie.
+				</p><p>
+					Moduły irytki można rozpoznać po małym 2&#8209;cyfrowym liczniku na środku górnej części modułu. Interakcja z bombą może spowodować ich aktywację. Po aktywowaniu wymagają regularnej uwagi, by zapobiec pomyłce, gdy ich licznik dobiegnie końca.
+				</p><p>
+					Pozostań czujny: moduły irytki mogą aktywować się ponownie w każdej chwili.
+				</p>
+			</div>
+
+			<div class='vertical-spacer-smaller'></div>
+
+			<img src='../img/NeedyVentComponent.svg' class='diagram' />
+			<h2>Odnośnie Wietrzenia gazu</h2>
+			<p class='flavour-text'>
+				Hakowanie to ciężka robota! Cóż, zazwyczaj tak jest. Do tego zadania wystarczy pijący ptak, wciskający na okrągło ten sam przycisk.
+			</p>
+			<ul><li>
+				Odpowiedz na zapytania komputera, naciskając „T” dla „Tak” lub „N” dla „Nie”.
+			</li></ul>
+
+			<div class='vertical-spacer-smaller'></div>
+
+			<img src='../img/NeedyDischargeComponent.svg' class='diagram' />
+			<h2>Odnośnie Rozładowywania kondensatora</h2>
+			<p class='flavour-text'>
+				Obstawiam, że to ustrojstwo ma po prostu przyciągnąć twoją uwagę, bo w przeciwnym razie to straszna fuszerka.
+			</p>
+			<ul><li>
+				Rozładuj kondensator zanim zostanie przeciążony, przytrzymując jego dźwignię.
+			</li></ul>
+		</div>
+	</div>
+</div>
+
+<div class='section'>
+	<div class='page'>
+		<div class='page-header'>
+			<span class='page-header-doc-title'>Keep Talking and Nobody Explodes v.1 Uproszczony</span>
+			<span class='page-header-section-title'>Hasła</span>
+		</div>
+		<div class='page-content'>
+			<img src='../img/PasswordComponent.svg' class='diagram'>
+			<h2>Odnośnie Haseł</h2>
+			<p class='flavour-text'>
+				Na szczęście to hasło zdaje się nie spełniać rządowych wymogów bezpieczeństwa: 22 znaki, małe i wielkie litery, numery w losowej kolejności, bez palindromów dłuższych niż 3 znaki.
+			</p>
+
+			<ul><li>
+				Przyciski nad i pod każdą literą pozwolą przejrzeć możliwości dla tej pozycji.
+			</li><li>
+				Tylko jedna kombinacja dostępnych liter będzie pasować do hasła poniżej.
+			</li><li>
+				Naciśnij przycisk zatwierdzający po ustawieniu prawidłowego hasła.
+			</li></ul>
+
+			<table class='password-table'>
+<tr><td>alarm</td><td>apacz</td><td>arena</td><td>babka</td><td>cecha</td></tr>
+<tr><td>ekipa</td><td>fajka</td><td>farma</td><td>głowa</td><td>hańba</td></tr>
+<tr><td>larwa</td><td>laska</td><td>macka</td><td>obiad</td><td>palec</td></tr>
+<tr><td>palma</td><td>pegaz</td><td>robak</td><td>scena</td><td>skrót</td></tr>
+<tr><td>smoła</td><td>smycz</td><td>tafla</td><td>teren</td><td>toast</td></tr>
+<tr><td>torba</td><td>trasa</td><td>twarz</td><td>walka</td><td>wełna</td></tr>
+<tr><td>wnęka</td><td>zakaz</td><td>zwiad</td><td>znicz</td><td>żniwa</td></tr>
+			</table>
+		</div>
+	</div>
+</div>
+
+<div class='section'>
+	<div class='page'>
+		<div class='page-header'>
+			<span class='page-header-doc-title'>Keep Talking and Nobody Explodes v.1 Uproszczony</span>
+			<span class='page-header-section-title'>Simon mówi</span>
+		</div>
+		<div class='page-content'>
+			<img src='../img/SimonComponent.svg' class='diagram'>
+			<h2>Odnośnie Simon mówi</h2>
+			<p class='flavour-text'>
+				To jedna z tych zabawek, którymi bawiłeś się w dzieciństwie, gdzie musiałeś wprowadzić sekwencję w odpowiedniej kolejności. Z tym, że to podróbka, zapewne prosto z bazaru.
+			</p>
+
+			<ol><li>
+				Jeden z czterech kolorowych przycisków będzie migał.
+			</li><li>
+				Korzystając z właściwej tabeli poniżej, naciśnij przycisk o odpowiadającym kolorze.
+			</li><li>
+				Oryginalny przycisk zaświeci się, a po nim kolejny. Powtarzaj tę sekwencję, używając mapowania kolorów.
+			</li><li>
+				Po każdym wprowadzeniu prawidłowej sekwencji będzie się ona wydłużać, aż do unieszkodliwienia modułu.
+			</li></ol>
+
+			<style>
+				.simon-colors span[class^='color-'] { white-space: nowrap; font-size: 0.85em; }
+				.simon-colors img.simon-diagram { width: 42%; vertical-align: middle; }
+			</style>
+			<table class='repeaters-table simon-colors'>
+				<tr>
+					<th colspan='1' class='repeaters-spacer'></th>
+					<th>Samogłoska w NS</th><th>Brak samogłoski</th>
+				</tr><tr>
+					<th>Brak pomyłek</th>
+					<td>
+						<span class='color-blue'>niebieski</span>
+						</br>
+						<span class='color-red'>czerwony</span>
+						<img src='../img/simon/Vowel_0.png' class='simon-diagram'>
+						<span class='color-yellow'>żółty</span>
+						</br>
+						<span class='color-green'>zielony</span>
+					</td><td>
+						<span class='color-blue'>niebieski</span>
+						</br>
+						<span class='color-red'>czerwony</span>
+						<img src='../img/simon/NoVowel_0.png' class='simon-diagram'>
+						<span class='color-yellow'>żółty</span>
+						</br>
+						<span class='color-green'>zielony</span>
+					</td>
+				</tr><tr>
+					<th>1 pomyłka</th>
+					<td>
+						<span class='color-blue'>niebieski</span>
+						</br>
+						<span class='color-red'>czerwony</span>
+						<img src='../img/simon/Vowel_1.png' class='simon-diagram'>
+						<span class='color-yellow'>żółty</span>
+						</br>
+						<span class='color-green'>zielony</span>
+					</td><td>
+						<span class='color-blue'>niebieski</span>
+						</br>
+						<span class='color-red'>czerwony</span>
+						<img src='../img/simon/NoVowel_1.png' class='simon-diagram'>
+						<span class='color-yellow'>żółty</span>
+						</br>
+						<span class='color-green'>zielony</span>
+					</td>
+				</tr><tr>
+					<th>2 pomyłki</th>
+					<td>
+						<span class='color-blue'>niebieski</span>
+						</br>
+						<span class='color-red'>czerwony</span>
+						<img src='../img/simon/Vowel_2.png' class='simon-diagram'>
+						<span class='color-yellow'>żółty</span>
+						</br>
+						<span class='color-green'>zielony</span>
+					</td><td>
+						<span class='color-blue'>niebieski</span>
+						</br>
+						<span class='color-red'>czerwony</span>
+						<img src='../img/simon/NoVowel_2.png' class='simon-diagram'>
+						<span class='color-yellow'>żółty</span>
+						</br>
+						<span class='color-green'>zielony</span>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+
+<div class='section'>
+	<div class='page'>
+		<div class='page-header'>
+			<span class='page-header-doc-title'>Keep Talking and Nobody Explodes v.1 Uproszczony</span>
+			<span class='page-header-section-title'>Kto na pierwszym</span>
+		</div>
+		<div class='page-content'>
+			<img src='../img/WhosOnFirstComponent.svg' class='diagram'>
+			<h2>Odnośnie Kto na pierwszym</h2>
+			<p class='flavour-text'>
+				To ustrojstwo wygląda jak coś wyjętego żywcem ze skeczów komediowych i mogłoby być zabawne, gdyby nie fakt że jest podłączone do bomby. Nie będę się rozpisywał, bo słowa tylko komplikują sprawy.
+			</p>
+
+			<ol><li>
+				Spójrz na wyświetlacz i użyj kroku 1, by ustalić z którego przycisku <u>odczytać</u> napis.
+			</li><li>
+				Używając odczytanego napisu, użyj kroku 2, by ustalić który przycisk <u>wcisnąć</u>.
+			</li><li>
+				Powtarzaj aż do unieszkodliwienia modułu.
+			</li></ol>
+
+			<h3>Krok 1:</h3>
+			<p>
+				Na podstawie tekstu na wyświetlaczu, <u>odczytaj</u> napis na konkretnym przycisku i przejdź do kroku 2:
+			</p>
+
+			<table class='whos-on-first-step1-table'><tr><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>TAK</th></tr><tr><td><br></td><td><br></td></tr><tr><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td><td><br></td></tr><tr><td><br></td><td><br></td></tr></table></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>BUT</th></tr><tr><td><br></td><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td><br></td></tr></table></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>WYŚWIETLACZ</th></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td></tr></table></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>OKEJ</th></tr><tr><td><br></td><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td><br></td></tr></table></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>JA?</th></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td></tr></table></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>NIC</th></tr><tr><td><br></td><td><br></td></tr><tr><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td><td><br></td></tr><tr><td><br></td><td><br></td></tr></table></td></tr><tr><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'></th></tr><tr><td><br></td><td><br></td></tr><tr><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td><td><br></td></tr><tr><td><br></td><td><br></td></tr></table></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>PUSTY</th></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td></tr><tr><td><br></td><td><br></td></tr></table></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>NIE</th></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td></tr></table></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>MIEĆ</th></tr><tr><td><br></td><td><br></td></tr><tr><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td><td><br></td></tr><tr><td><br></td><td><br></td></tr></table></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>MIEDŹ</th></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td></tr></table></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>MOŻE</th></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td></tr><tr><td><br></td><td><br></td></tr></table></td></tr><tr><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>MORZE</th></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td></tr><tr><td><br></td><td><br></td></tr></table></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>LUD</th></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td><br></td></tr><tr><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td><td><br></td></tr></table></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>LÓD</th></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td><br></td></tr><tr><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td><td><br></td></tr></table></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>LUT</th></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td></tr></table></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>BUK</th></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td></tr><tr><td><br></td><td><br></td></tr></table></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>BÓG</th></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td></tr></table></td></tr><tr><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>BUG</th></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td></tr><tr><td><br></td><td><br></td></tr></table></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>KOLAŻ</th></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td></tr><tr><td><br></td><td><br></td></tr></table></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>KOLARZ</th></tr><tr><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td><td><br></td></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td><br></td></tr></table></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>RĄB</th></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td></tr></table></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>ROMB</th></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td><br></td></tr><tr><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td><td><br></td></tr></table></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>JAK</th></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td></tr><tr><td><br></td><td><br></td></tr></table></td></tr><tr><td></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>JAK?</th></tr><tr><td><br></td><td><br></td></tr><tr><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td><td><br></td></tr><tr><td><br></td><td><br></td></tr></table></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>JA</th></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td></tr></table></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>KOD</th></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td></tr></table></td><td><table><tr><th class='whos-on-first-look-at-display' colspan='2'>KOT</th></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td><br></td></tr><tr><td><br></td><td class='whos-on-first-look-at'><img src='../img/eye-icon.png' alt='Spójrz na' style='height: 1em;'/></td></tr></table></td><td></td></tr></table>
+		</div>
+	</div>
+	<div class='page page-bg-01'>
+		<div class='page-header'>
+			<span class='page-header-doc-title'>Keep Talking and Nobody Explodes v.1 Uproszczony</span>
+			<span class='page-header-section-title'>Kto na pierwszym</span>
+		</div>
+		<div class='page-content'>
+			<h3>Krok 2:</h3>
+
+			<p>
+				Używając napisu z kroku 1, <u>wciśnij pierwszy przycisk</u>, który pojawia się na liście odpowiadającej napisowi:
+			</p>
+
+			<table class='whos-on-first-step2-table'>
+				<tr>
+					<th>'GOTÓW':</th>
+					<td>TAK, OKEJ, HAH, ŚRODEK, LEWY, NADUŚ, PRAWY, PUSTY, GOTÓW</td>
+				</tr>
+				<tr>
+					<th>'PIERWSZY':</th>
+					<td>LEWY, OKEJ, TAK, ŚRODEK, NIE, PRAWY, NIC, ŹLE, CZEKAJ, GOTÓW, PUSTY, HAH, NADUŚ, PIERWSZY</td>
+				</tr>
+				<tr>
+					<th>'NIE':</th>
+					<td>PUSTY, ŹLE, CZEKAJ, PIERWSZY, HAH, GOTÓW, PRAWY, TAK, NIC, LEWY, NADUŚ, OKEJ, NIE</td>
+				</tr>
+				<tr>
+					<th>'PUSTY':</th>
+					<td>CZEKAJ, PRAWY, OKEJ, ŚRODEK, PUSTY</td>
+				</tr>
+				<tr>
+					<th>'NIC':</th>
+					<td>ŹLE, PRAWY, OKEJ, ŚRODEK, TAK, PUSTY, NIE, NADUŚ, LEWY, HAH, CZEKAJ, PIERWSZY, NIC</td>
+				</tr>
+				<tr>
+					<th>'TAK':</th>
+					<td>OKEJ, PRAWY, ŹLE, ŚRODEK, PIERWSZY, HAH, NADUŚ, GOTÓW, NIC, TAK</td>
+				</tr>
+				<tr>
+					<th>'HAH':</th>
+					<td>ŹLE, HAH</td>
+				</tr>
+				<tr>
+					<th>'ŹLE':</th>
+					<td>GOTÓW, NIC, LEWY, HAH, OKEJ, TAK, PRAWY, NIE, NADUŚ, PUSTY, ŹLE</td>
+				</tr>
+				<tr>
+					<th>'LEWY':</th>
+					<td>PRAWY, LEWY</td>
+				</tr>
+				<tr>
+					<th>'PRAWY':</th>
+					<td>TAK, NIC, GOTÓW, NADUŚ, NIE, CZEKAJ, HAH, PRAWY</td>
+				</tr>
+				<tr>
+					<th>'ŚRODEK':</th>
+					<td>PUSTY, GOTÓW, OKEJ, HAH, NIC, NADUŚ, NIE, CZEKAJ, LEWY, ŚRODEK</td>
+				</tr>
+				<tr>
+					<th>'OKEJ':</th>
+					<td>ŚRODEK, NIE, PIERWSZY, TAK, ŹLE, NIC, CZEKAJ, OKEJ</td>
+				</tr>
+				<tr>
+					<th>'CZEKAJ':</th>
+					<td>ŹLE, NIE, PUSTY, OKEJ, TAK, LEWY, PIERWSZY, NADUŚ, HAH, CZEKAJ</td>
+				</tr>
+				<tr>
+					<th>'NADUŚ':</th>
+					<td>PRAWY, ŚRODEK, TAK, GOTÓW, NADUŚ</td>
+				</tr>
+				<tr>
+					<th>'BUK':</th>
+					<td>DALEJ, BÓG, BUG, BUT, NASTĘPNY, LUT, LÓD, TRZYMAJ, CO?, BUK</td>
+				</tr>
+				<tr>
+					<th>'BÓG':</th>
+					<td>BUG, NASTĘPNY, KTÓRY?, LUT, CO?, DOBRZE, HAHA, TRZYMAJ, BUK, LUD, BUT, DALEJ, LÓD, BÓG</td>
+				</tr>
+				<tr>
+					<th>'BUG':</th>
+					<td>HAHA, BÓG, LUT, BUG</td>
+				</tr>
+				<tr>
+					<th>'BUT':</th>
+					<td>BUK, BUT</td>
+				</tr>
+				<tr>
+					<th>'LÓD':</th>
+					<td>DOBRZE, LUD, LÓD</td>
+				</tr>
+				<tr>
+					<th>'LUD':</th>
+					<td>LUT, DALEJ, NASTĘPNY, CO?, BUT, LÓD, HAHA, DOBRZE, LUD</td>
+				</tr>
+				<tr>
+					<th>'LUT':</th>
+					<td>LUT</td>
+				</tr>
+				<tr>
+					<th>'HAHA':</th>
+					<td>LÓD, LUD, BÓG, BUT, NASTĘPNY, HAHA</td>
+				</tr>
+				<tr>
+					<th>'CO?':</th>
+					<td>BUK, TRZYMAJ, BUT, BUG, LUD, DOBRZE, HAHA, KTÓRY?, BÓG, LUT, LÓD, NASTĘPNY, CO?</td>
+				</tr>
+				<tr>
+					<th>'DOBRZE':</th>
+					<td>DALEJ, LUT, NASTĘPNY, CO?, BUG, LÓD, BUT, TRZYMAJ, KTÓRY?, BUK, LUD, BÓG, HAHA, DOBRZE</td>
+				</tr>
+				<tr>
+					<th>'NASTĘPNY':</th>
+					<td>CO?, LUT, HAHA, BUG, TRZYMAJ, DALEJ, NASTĘPNY</td>
+				</tr>
+				<tr>
+					<th>'TRZYMAJ':</th>
+					<td>BÓG, LUD, DOBRZE, HAHA, BUK, LÓD, DALEJ, CO?, BUT, NASTĘPNY, TRZYMAJ</td>
+				</tr>
+				<tr>
+					<th>'DALEJ':</th>
+					<td>BÓG, DOBRZE, KTÓRY?, BUT, BUK, TRZYMAJ, LUT, LÓD, DALEJ</td>
+				</tr>
+				<tr>
+					<th>'KTÓRY?':</th>
+					<td>BUT, NASTĘPNY, LUD, LÓD, TRZYMAJ, DOBRZE, HAHA, CO?, LUT, BUK, KTÓRY?</td>
+				</tr>
+			</table>		</div>
+	</div>
+</div>
+
+<div class='section'>
+	<div class='page wire-sequence'>
+		<div class='page-header'>
+			<span class='page-header-doc-title'>Keep Talking and Nobody Explodes v.1 Uproszczony</span>
+			<span class='page-header-section-title'>Sekwencje przewodów</span>
+		</div>
+		<div class='page-content'>
+			<img src='../img/WireSequenceComponent.svg' class='diagram'>
+			<h2>W temacie Sekwencji Przewodów</h2>
+			<p class='flavour-text'>
+				Ciężko powiedzieć jak działa ten mechanizm. Technologia jest całkiem imponująca, ale na pewno istnieje łatwiejszy sposób na upchnięcie dziewięciu przewodów.
+			</p>
+
+			<ul><li>
+				Moduł zawiera kilka paneli z przewodami, ale tylko jeden panel jest widoczny w danej chwili. Przejdź do następnego panelu strzałką w dół, do poprzedniego strzałką w górę.
+			</li><li>
+				Nie przechodź do następnego panelu, dopóki nie jesteś pewien, że przeciąłeś wszystkie wymagane przewody na aktualnym panelu.
+			</li><li>
+				Przetnij przewody według tabeli poniżej. Wystąpienia przewodów kumulują się na wszystkich panelach modułu.
+			</li></ul>
+			<div style='clear:both'></div>
+
+			<table class='red-table'>
+				<tr><th colspan='2' class='header'>Czerwone przewody
+				<tr><th class='first-col'>Wystąpienie<th>Przetnij, jeśli:
+				<tr><td class='first-col'><span class='color-red'>czerwony</span> 1<td class='second-col'>C
+				<tr><td class='first-col'><span class='color-red'>czerwony</span> 2<td class='second-col'>B
+				<tr><td class='first-col'><span class='color-red'>czerwony</span> 3<td class='second-col'>A
+				<tr><td class='first-col'><span class='color-red'>czerwony</span> 4<td class='second-col'>A / C
+				<tr><td class='first-col'><span class='color-red'>czerwony</span> 5<td class='second-col'>B
+				<tr><td class='first-col'><span class='color-red'>czerwony</span> 6<td class='second-col'>A / C
+				<tr><td class='first-col'><span class='color-red'>czerwony</span> 7<td class='second-col'>A / B / C
+				<tr><td class='first-col'><span class='color-red'>czerwony</span> 8<td class='second-col'>A / B
+				<tr><td class='first-col'><span class='color-red'>czerwony</span> 9<td class='second-col'>B
+
+			</table><table class='blue-table'>
+				<tr><th colspan='2' class='header'>Niebieskie przewody</th>
+				<tr><th class='first-col'>Wystąpienie<th>Przetnij, jeśli:
+				<tr><td class='first-col'><span class='color-blue'>niebieski</span> 1<td class='second-col'>B
+				<tr><td class='first-col'><span class='color-blue'>niebieski</span> 2<td class='second-col'>A / C
+				<tr><td class='first-col'><span class='color-blue'>niebieski</span> 3<td class='second-col'>B
+				<tr><td class='first-col'><span class='color-blue'>niebieski</span> 4<td class='second-col'>A
+				<tr><td class='first-col'><span class='color-blue'>niebieski</span> 5<td class='second-col'>B
+				<tr><td class='first-col'><span class='color-blue'>niebieski</span> 6<td class='second-col'>B / C
+				<tr><td class='first-col'><span class='color-blue'>niebieski</span> 7<td class='second-col'>C
+				<tr><td class='first-col'><span class='color-blue'>niebieski</span> 8<td class='second-col'>A / C
+				<tr><td class='first-col'><span class='color-blue'>niebieski</span> 9<td class='second-col'>A
+
+			</table><table class='black-table'><tr><th colspan='2' class='header'>Czarne przewody</th>
+				<tr><th class='first-col'>Wystąpienie</th><th>Przetnij, jeśli:</th>
+				<tr><td class='first-col'><span class='color-black'>czarny</span> 1<td class='second-col'>A / B / C
+				<tr><td class='first-col'><span class='color-black'>czarny</span> 2<td class='second-col'>A / C
+				<tr><td class='first-col'><span class='color-black'>czarny</span> 3<td class='second-col'>B
+				<tr><td class='first-col'><span class='color-black'>czarny</span> 4<td class='second-col'>A / C
+				<tr><td class='first-col'><span class='color-black'>czarny</span> 5<td class='second-col'>B
+				<tr><td class='first-col'><span class='color-black'>czarny</span> 6<td class='second-col'>B / C
+				<tr><td class='first-col'><span class='color-black'>czarny</span> 7<td class='second-col'>A / B
+				<tr><td class='first-col'><span class='color-black'>czarny</span> 8<td class='second-col'>C
+				<tr><td class='first-col'><span class='color-black'>czarny</span> 9<td class='second-col'>C
+			</table>
+		</div>
+	</div>
+</div>
+
+<div class='section'>
+	<div class='page'>
+		<div class='page-header'>
+			<span class='page-header-doc-title'>Keep Talking and Nobody Explodes v.1 Uproszczony</span>
+			<span class='page-header-section-title'>Przewody</span>
+		</div>
+		<div class='page-content'>
+			<img src='../img/WireComponent.svg' class='diagram'>
+			<h2>Odnośnie Przewodów</h2>
+			<p class='flavour-text'>
+				Przewody to siła napędowa elektroniki! Nie, chwila, to byłby prąd. Przewody są bardziej jak tętnice. Żyły? No nieważne…
+			</p>
+
+			<ul>
+				<li>Moduł ten może zawierać 3–6 przewodów.</li>
+				<li>Tylko <em>jeden</em> przewód musi zostać przecięty.</li>
+				<li>Przewody numerowane są od góry do dołu.</li>
+			</ul>
+
+			<table>
+				<tr><td>
+					<strong><em>3 przewody:</em></strong>
+					<ul><li>
+						jeśli (#<span class='color-red'>czerwonych</span> == 0) : przetnij drugi przewód
+					</li><li>
+						jeśli (#<span class='color-blue'>niebieskich</span> > 1) I (trzeci != <span class='color-white'>biały</span>) : przetnij ostatni <span class='color-blue'>niebieski</span>
+					</li><li>
+						w przeciwnym razie : przetnij trzeci przewód
+					</li></ul>
+				</td></tr>
+
+				<tr><td>
+					<strong><em>4 przewody:</em></strong>
+					<ul>
+					<strong>PYTAJ</strong> 'Czy NS nieparzysty?' 'Ile <span class='color-red'>czerwonych</span>?'
+					<li>
+						jeśli (#<span class='color-red'>czerwonych</span> > 1) I (NS == nieparzysty) : przetnij ostatni <span class='color-red'>czerwony</span>
+					</li>
+					<strong>PYTAJ</strong> 'Opisz czwarty przewód.'
+					<li>
+						jeśli (#<span class='color-red'>czerwonych</span> == 0) I (czwarty == <span class='color-yellow'>żółty</span>) : przetnij pierwszy przewód
+					</li>
+					<strong>PYTAJ</strong> 'Ile <span class='color-blue'>niebieskich</span>?'
+					<li>
+						jeśli (#<span class='color-blue'>niebieskich</span> == 1) : przetnij pierwszy przewód
+					</li>
+					<strong>PYTAJ</strong> 'Ile <span class='color-yellow'>żółtych</span>?'
+					<li>
+						jeśli (#<span class='color-yellow'>żółtych</span> > 1) : przetnij czwarty przewód
+					</li><li>
+						w przeciwnym razie : przetnij drugi przewód
+					</li></ul>
+				</td></tr>
+
+				<tr><td>
+					<strong><em>5 przewodów:</em></strong>
+					<ul>
+					<strong>PYTAJ</strong> 'Czy NS nieparzysty?' 'Opisz 5. przewód.'
+					<li>
+						jeśli (5. == <span class='color-black'>czarny</span>) I (NS == nieparzysty) : przetnij czwarty przewód
+					</li>
+					<strong>PYTAJ</strong> 'Ile <span class='color-red'>czerwonych</span> / <span class='color-black'>czarnych</span> / <span class='color-yellow'>żółtych</span>?'
+					<li>
+						jeśli (#<span class='color-black'>czarnych</span> == 0) I (#<span class='color-red'>czerwonych</span> != 1) LUB (#<span class='color-yellow'>żółtych</span> < 2) : przetnij drugi przewód
+					</li><li>
+						w przeciwnym razie : przetnij pierwszy przewód
+					</li></ul>
+				</td></tr>
+
+				<tr><td>
+					<strong><em>6 przewodów:</em></strong>
+					<ul>
+					<strong>PYTAJ</strong> 'Czy NS nieparzysty?' 'Ile <span class='color-yellow'>żółtych</span> / <span class='color-red'>czerwonych</span> / <span class='color-white'>białych</span>?'
+					<li>
+						jeśli (#<span class='color-yellow'>żółtych</span> == 0) I (NS == nieparzysty) : przetnij trzeci przewód
+					</li><li>
+						jeśli (#<span class='color-yellow'>żółtych</span> != 1) I (#<span class='color-red'>czerwonych</span> == 0) I (#<span class='color-white'>białych</span> < 2) : przetnij ostatni przewód
+					</li><li>
+						w przeciwnym razie : przetnij czwarty przewód
+					</li></ul>
+				</td></tr>
+			</table>
+		</div>
+	</div>
+</div>
+</body></html>
