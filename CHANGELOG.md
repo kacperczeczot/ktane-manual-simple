@@ -4,24 +4,27 @@ Wszystkie istotne zmiany w projekcie są dokumentowane w tym pliku zgodnie ze st
 
 ---
 
-## [Unreleased]
-
-### Added
-- Dostosowanie repozytorium do standardów DevEx (Single-App).
-- Struktura dokumentacji `docs/` z certyfikatem `docs/STANDARDS.md` i rejestrem `docs/adr/`.
-- Pliki konfiguracyjne: `.editorconfig`, `.agents/rules/project.md`, `.github/pull_request_template.md`.
-- Strona główna podręcznika `public/index.html` z wyborem języka PL/EN.
+## [0.1.1] - 2026-08-27
 
 ### Changed
-- Reorganizacja struktury do Kanonu Root:
-  - `Module*.html`, `pl/`, `css/`, `img/` ➡️ `public/`
-  - `pdf/` ➡️ `assets/pdf/`
-- Zaktualizowanie generatora `scripts/generate_pl_html.py` do nowych ścieżek `public/` i `assets/`.
+- migrate repository layout and documentation to DevEx standards
+
+### Miscellaneous
+- remove self-referencing breadcrumb from root README.md
+- adapt README.md to project specific context, remove boilerplate
+- align PR templates with .agents/rules standard and specific repo context
+- ignore .DS_Store (macOS system files)
+- enforce DevEx canonical breadcrumbs in all markdown files
 
 ---
 
-## [1.0.0] - 2026-08-15
+## [0.1.0] - 2018-06-29
 
-### Added
-- Zoptymalizowane moduły podręcznika KTANE (13 modułów).
-- Wersja polska podręcznika oraz generator PDF.
+### Miscellaneous
+- Initial Commit
+- Split modules into separate files & Generate PDFs
+- Changed Simon colors for contrast
+- Fix printed white text color
+- Fixed typo in Maze section in readme (#1)
+
+---
