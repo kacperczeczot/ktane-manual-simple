@@ -4,16 +4,12 @@
 
 ---
 
-## 1. Dokumentacja i Standardy
+## 1. Korzystanie z Podręcznika
 
-Projekt funkcjonuje w oparciu o model **Single-App** ([`template-single-app`](https://github.com/kacperczeczot/template-single-app)) i przestrzega standardów inżynieryjnych ekosystemu:
 
 | Dokument / Sekcja | Opis |
 | :--- | :--- |
-| [Standardy Projektu (`docs/STANDARDS.md`)](docs/STANDARDS.md) | Zgodność ze standardami DevEx i procedury generowania |
 | [Dokumentacja Projektu (`docs/README.md`)](docs/README.md) | Centralny hub dokumentacji technicznej |
-| [Rejestr Decyzji ADR (`docs/adr/`)](docs/adr/README.md) | Rejestr Decyzji Architektonicznych projektu |
-| [Globalne Standardy DevEx (`devex-standards`)](https://github.com/kacperczeczot/devex-standards) | Nadrzędna Konstytucja inżynieryjna ekosystemu |
 | [Reguły AI Projektu (`.agents/rules/project.md`)](.agents/rules/project.md) | Wytyczne domenowe dla asystentów AI |
 
 ---
