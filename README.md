@@ -1,7 +1,3 @@
-[Strona główna](README.md)
-
----
-
 # KTANE — Uproszczony Podręcznik Rozbrajania Bomb
 
 > Zoptymalizowany pod kątem szybkości podejmowania decyzji i czytelności podręcznik dla Ekspertów do gry *Keep Talking and Nobody Explodes*.
