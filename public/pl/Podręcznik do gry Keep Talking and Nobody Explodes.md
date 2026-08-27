@@ -1,3 +1,7 @@
+[Strona główna](../../README.md) > [pl](README.md) > [Podręcznik do gry Keep Talking and Nobody Explodes](Podręcznik do gry Keep Talking and Nobody Explodes.md)
+
+---
+
 # PODRĘCZNIK ROZBRAJANIA BOMB
 
 ## www.keeptalkinggame.com Wersja 2-pl Kod weryfikacyjny: 856

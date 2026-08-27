@@ -1,3 +1,7 @@
+[Strona główna](../../README.md) > [pl](README.md)
+
+---
+
 # Uproszczony podręcznik rozbrajania bomb KTANE
 
 Udoskonalona wersja oryginalnego podręcznika rozbrajania bomb do gry „Keep Talking and Nobody Explodes”,
