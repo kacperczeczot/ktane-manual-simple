@@ -9,5 +9,5 @@
 - [ ] Sprawdzono podgląd modułów w przeglądarce (`public/index.html`)
 
 ## Zgodność ze Standardami DevEx
-- [ ] Zmiany przestrzegają zasad czystości root (`devex-standards`)
+- [ ] Zmiany są zgodne z wytycznymi w `.agents/rules/project.md`
 - [ ] Zastosowano konwencję Conventional Commits
